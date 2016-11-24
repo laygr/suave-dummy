@@ -8,7 +8,7 @@ open System
 open System.IO
 
 Environment.CurrentDirectory <- __SOURCE_DIRECTORY__
-let solutionFile = "suave-dummy.fsproj"
+let solutionFile = "suave-dummy\suave-dummy.fsproj"
 
 Target "StageWebsiteAssets" (fun _ ->
     let blacklist =
